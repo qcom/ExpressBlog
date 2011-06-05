@@ -1,0 +1,151 @@
+#bg_1
+{
+	position: absolute;
+	background: transparent url(/images/spritely_background/overworld/smb/smb_1-1.gif);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 224px;
+	z-index: -1;
+}
+#bg_2, #map_2, #sprites_2
+{
+	position: absolute;
+	top: 224px;
+	width: 100%;
+	height: 432px;
+}
+#bg_2{
+	background: transparent url(/images/spritely_background/overworld/smw/smw_yi_1_background.gif) repeat-x;
+	z-index: -2;
+}
+#map_2
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/overworld/smw/smw_yi_1_map.gif) repeat-x;
+	z-index: -1;
+}
+#sprites_2
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/overworld/smw/smw_yi_1_sprites.gif) repeat-x;
+	z-index: -1;
+}
+#bg_3
+{
+	position: absolute;
+	background: transparent url(/images/spritely_background/underworld/smb/smb_1-2.gif);
+	left: 0;
+	top: 656px;
+	width: 100%;
+	height: 224px;
+	z-index: -1;
+}
+#bg_4, #map_4, #sprites_4, #platforms_4
+{
+	position: absolute;
+	top: 880px;
+	width: 100%;
+	height: 432px;
+}
+#bg_4
+{
+	background: transparent url(/images/spritely_background/underworld/smw/smw_dp_2_background.gif) repeat-x;
+	z-index: -2;
+}
+#map_4
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/underworld/smw/smw_dp_2_map.gif) repeat-x;
+	z-index: -1;
+}
+#sprites_4
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/underworld/smw/smw_dp_2_sprites.gif) repeat-x;
+	z-index: -1;
+}
+#platforms_4
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/underworld/smw/smw_dp_2_platforms.gif) repeat-x;
+	z-index: -1;
+}
+#bg_5
+{
+	position: absolute;
+	background: transparent url(/images/spritely_background/underwater/smb/smb_2-2.gif);
+	left: 0;
+	top: 1312px;
+	width: 100%;
+	height: 224px;
+	z-index: -1;
+	display: none;
+}
+#bg_6, #map_6, #sprites_6
+{
+	position: absolute;
+	top: 1536px;
+	width: 100%;
+	height: 432px;
+	display: none;
+}
+#bg_6
+{
+	background: transparent url(/images/spritely_background/underwater/smw/smw_dp_s1_background.gif) repeat-x;
+	z-index: -2;
+}
+#map_6
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/underwater/smw/smw_dp_s1_map.gif) repeat-x;
+	z-index: -1;
+}
+#sprites_6
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/underwater/smw/smw_dp_s1_sprites.gif) repeat-x;
+	z-index: -1;
+}
+#bg_7
+{
+	position: absolute;
+	background: transparent url(/images/spritely_background/castle/smb/smb_1-4.gif);
+	left: 0;
+	top: 1968px;
+	width: 100%;
+	height: 224px;
+	z-index: -1;
+	display: none;
+}
+#bg_8, #map_8, #sprites_8, #behindsprites_8
+{
+	position: absolute;
+	top: 2192px;
+	width: 100%;
+	height: 432px;
+	display: none;
+}
+#bg_8
+{
+	background: transparent url(/images/spritely_background/castle/smw/smw_yi_c1_r1_background.gif) repeat-x;
+	z-index: -2;
+}
+#map_8
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/castle/smw/smw_yi_c1_r1_map.gif) repeat-x;
+	z-index: -1;
+}
+#sprites_8
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/castle/smw/smw_yi_c1_r1_sprites.gif) repeat-x;
+	z-index: -1;
+}
+#behindsprites_8
+{
+	left: 0;
+	background: transparent url(/images/spritely_background/castle/smw/smw_yi_c1_r1_behindsprites.gif) repeat-x;
+	z-index: -1;
+}

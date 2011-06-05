@@ -1,0 +1,139 @@
+<html>
+<head>
+  <link href="/stylesheets/style.css" rel="stylesheet" />
+  <!--<link href="/stylesheets/background.css" rel="stylesheet" />-->
+  <link rel="stylesheet" href="/stylesheets/zen.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <!--<script src="/javascripts/jquery.spritely-0.2.1.js"></script>-->
+  <script src="/javascripts/jquery.rotate.js"></script>
+  <script src="/javascripts/jquery.grab.js"></script> 
+  <script src="/javascripts/jquery.jplayer.min.js"></script>
+  <script src="/javascripts/zen.js"></script>
+</head>	
+  <body>
+	<div id="container">
+		<header>
+			<hgroup>
+				<h1><%= title %></h1>
+				<h2>I only blog everything</h2>
+			</hgroup>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/posts/new">New</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="banner">
+			<p>
+				Musing just to muse.
+			</p>
+		</div>
+    	<div id="content">
+    		<%- body %>
+    	</div>
+		<div id="sidebar">
+			<aside id="music">
+				<h4>Music</h4>
+				<div id="zen">
+					<span class="player"></span>
+					<span class="circle"></span>
+					<span class="progress"></span>
+					<span class="buffer"></span>
+					<span class="drag"></span>
+					<div class="button">
+						<span class="icon play"></span>
+						<span class="icon pause"></span>
+					</div>
+				</div>
+			</aside>
+			<aside id="brief">
+				<h4>Current Fads</h4>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</aside>
+		
+				<aside id="recent">
+					<h4>Recent</h4>
+					<ul>
+						<li><a href="#">Aliquam tincidunt mauris eu risus.</a></li>
+						<li><a href="#">Vestibulum auctor dapibus neque.</a></li>
+						<li><a href="#">Nunc dignissim risus id metus.</a></li>
+						<li><a href="#">Cras ornare tristique elit.</a></li>
+						<li><a href="#">Vivamus vestibulum nulla nec ante.</a></li>
+					</ul>
+				</aside>
+			</div>
+			<footer>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/posts/new">New</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<p>
+					&copy; Copyright 2011.  All Rights Reserved
+				</p>
+			</footer>
+		</div>
+		<!--
+		<script>
+		$(document).ready(function(){
+		$('#bg_1').pan({fps: 3, speed: 2, dir: 'right'});
+		$('#bg_2').pan({fps: 3, speed: 1, dir: 'right'});
+		$('#map_2').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#sprites_2').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#bg_3').pan({fps: 3, speed: 2, dir: 'right'});
+		$('#bg_4').pan({fps: 3, speed: 1, dir: 'right'});
+		$('#map_4').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#sprites_4').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#platforms_4').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#bg_5').pan({fps: 3, speed: 2, dir: 'right'});
+		$('#bg_6').pan({fps: 3, speed: 1, dir: 'right'});
+		$('#map_6').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#sprites_6').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#bg_7').pan({fps: 3, speed: 2, dir: 'right'});
+		$('#bg_8').pan({fps: 3, speed: 1, dir: 'right'});
+		$('#map_8').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#sprites_8').pan({fps: 3, speed: 3, dir: 'left'});
+		$('#behindsprites_8').pan({fps: 3, speed: 3, dir: 'left'});
+		});
+		</script>
+
+		<div id="wrapper">
+
+		<div id="bg_1"></div>
+
+		<div id="bg_2"></div>
+		<div id="map_2"></div>
+		<div id="sprites_2"></div>
+
+		<div id="bg_3"></div>
+
+		<div id="bg_4"></div>
+		<div id="map_4"></div>
+		<div id="sprites_4"></div>
+		<div id="platforms_4"></div>
+
+		<div id="bg_5"></div>
+
+		<div id="bg_6"></div>
+		<div id="map_6"></div>
+		<div id="sprites_6"></div>
+
+		<div id="bg_7"></div>
+
+		<div id="bg_8"></div>
+		<div id="map_8"></div>
+		<div id="sprites_8"></div>
+		<div id="behindsprites_8"></div>
+
+		</div> -->
+  </body>
+</html>
